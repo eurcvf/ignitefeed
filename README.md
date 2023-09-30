@@ -11,8 +11,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto IgniteFeed é um sistema desenvolvido junto ao curso da rocketseat (ignite), o intuito dessa aplicação é
-criarmos uma aplicação de que possa ser adicionado comentários e posts para aprender a fundo as tecnicas e as aplicações
+O projeto IgniteFeed é um sistema desenvolvido junto ao curso da rocketseat (ignite), e o intuito dessa aplicação é
+criarmos uma plataforma que nos possibilita adicionar comentários e posts para aprender sobre as tecnicas e as aplicações
 do React.
 
 - [Tenha o projeto finalizado clicando aqui! ](https://github.com/eurcvf/ignitefeed)
