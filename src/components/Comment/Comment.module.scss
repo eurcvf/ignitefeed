@@ -1,0 +1,94 @@
+.comment {
+  margin-top: 2.4rem;
+  display: flex;
+  gap: 1.6rem;
+
+  .avatar {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 8px;
+  }
+
+  .commentBox {
+    flex: 1;
+
+    .commentContent {
+      background-color: var(--gray-700);
+      border-radius: 8px;
+      padding: 1.6rem;
+
+      header {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        .authorAndTime {
+          display: flex;
+          flex-direction: column;
+
+          strong {
+            font-size: 1.4rem;
+            line-height: 160%;
+          }
+
+          time {
+            font-size: 1.2rem;
+            line-height: 160%;
+            color: var(--gray-400);
+          }
+        }
+
+        button {
+          background-color: transparent;
+          border: 0;
+          color: var(--gray-400);
+          cursor: pointer;
+          line-height: 0;
+          border-radius: 4px;
+          transition: all .1s ease;
+
+          &:hover {
+            color: var(--red-500);
+          }
+        }
+      }
+
+      p {
+        margin-top: 1.6rem;
+        color: var(--gray-300);
+        font-size: 1.5rem;
+      }
+    }
+
+    footer {
+      margin-top: 1.6rem;
+
+      button {
+        background-color: transparent;
+        border: 0;
+        color: var(--gray-400);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        transition: all .1s ease;
+        border-radius: 2px;
+
+        &:hover {
+          color: var(--green-300);
+        }
+
+        svg {
+          margin-right: 0.8rem;
+        }
+
+        span {
+
+          &::before {
+            content: '\2022';
+            padding: 0 0.4rem;
+          }
+        }
+      }
+    }
+  }
+}
