@@ -4,7 +4,9 @@
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- SASS
+- HTML5
+- CSS (SASS)
+- Javascript
 - React
 - Git e Github
 - Figma
