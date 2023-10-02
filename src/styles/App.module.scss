@@ -11,6 +11,36 @@
 
 @media (max-width: 768px) {
   html {
+    font-size: 58.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  html {
+    font-size: 56.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 54.5%;
+  }
+
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
     font-size: 52.5%;
   }
 
