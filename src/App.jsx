@@ -47,7 +47,7 @@ export function App() {
         <main>
           {posts.map(post => {
             // eslint-disable-next-line react/jsx-key
-            return (<Post author={post.author} content={post.content} publishedAt={post.publishedAt} />)
+            return (<Post key={post.id} author={post.author} content={post.content} publishedAt={post.publishedAt} />)
           })}
         </main>
       </div>
